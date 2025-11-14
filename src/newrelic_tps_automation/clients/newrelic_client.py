@@ -66,10 +66,10 @@ class NewRelicDashboardClient:
                     visualization {{ id }}
                     rawConfiguration
                     layout {{ column row width height }}
-                    data {
+                    data {{
                       raw
                       visualization
-                    }
+                    }}
                   }}
                 }}
               }}
