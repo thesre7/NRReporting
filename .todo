@@ -1,0 +1,6 @@
+TODO:
+- Review newrelic-tps-automation-design.md for requirements.
+- Implement Python package structure with services per design.
+- Build core modules: config, secrets, New Relic client, parsing, translation, reporting, delivery.
+- Add CLI/entry point and run instructions.
+- Draft enterprise-grade README with architecture and execution steps.

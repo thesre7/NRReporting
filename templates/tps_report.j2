@@ -1,0 +1,22 @@
+{{ user_name }} {{ timestamp }}
+
+**{{ event_name }} - {{ report_date }} {{ report_time }}**
+{{ traffic_status }} Traffic
+{{ capacity_status }} Capacity Utilization
+
+**System KPIs**
+
+**TSYS Mainframe**
+• Average TPS over the weekend: **{{ tsys_avg_tps }}**
+• Peak TPS during the weekend: **{{ tsys_peak_tps }}** @{{ tsys_peak_time }}
+• Average Capacity Utilization: **{{ tsys_avg_capacity }}%**
+
+**HPNS**
+• Average TPS over the weekend: **{{ hpns_avg_tps }}**
+• Peak TPS during the weekend: **{{ hpns_peak_tps }}** @{{ hpns_peak_time }}
+• Average Capacity Utilization: **{{ hpns_avg_capacity }}%**
+
+**Performance Trends**
+{{ trends }}
+
+[Link to monitoring dashboard]({{ dashboard_url }})
